@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>customer login</title>
+<script src="customer.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form onsubmit="login(event)" id="login" >
+    <input type="text" id="names" placeholder="Enter Name">
+    <input type="email" id="emails" placeholder="Enter Email"><br><br>
+    <button type="submit">Login</button>
+    
+</form>
+<br><br>
+<form id="acc" style="display:none">
+<h1 id="hello"></h1>
+<h2>This is Your Account Number</h2>
+<h3 id="accno"></h3>
+<button type="submit" name="submit" onclick="Exit()">Exit</button>
+</form>
+
+</body>
+</html>
